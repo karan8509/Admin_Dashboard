@@ -1,10 +1,7 @@
 
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
 import AdminPage from './pages/AdminPage';
-import Navbar from './component/Navbar';
-import "./App.css"
-import HomePage from './pages/HomePage';
+
 const App = () => {
   return (
     <div className="app-container">
@@ -14,8 +11,7 @@ const App = () => {
         <Route path='/' element={<HomePage />} />
         <Route path='/secret-dashboard' element={<AdminPage />} />
       </Routes> */}
-   
-      {/* </div> */}
+       {/* </div> */}
    <AdminPage />
     </div>
   );
